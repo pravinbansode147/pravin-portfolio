@@ -31,7 +31,7 @@ PROFILE = {
         {"name":"Pics — Imitation Jewellery E-Commerce", "stack":"Django · DRF · PostgreSQL · JavaScript · Render", "description":"Deployed full-stack e-commerce app with product catalogue, cart and shop pages; DRF JSON endpoints support product filtering, categories and inventory updates."},
         {"name":"LWT — Learn With Tech", "stack":"Django · DRF · PostgreSQL · HTML/CSS · JavaScript", "description":"Community learning platform to learn, teach and share resources, with video tutorials, downloadable study material and career learning roadmaps."},
         {"name":"VBI — Virtual Bank of India (Demo)", "stack":"Django · PostgreSQL · HTML/CSS · JavaScript", "description":"Demo banking application with authentication, balance tracking, deposits and fund transfers; uses .env configuration and PostgreSQL transaction records."},
-        {"name":"Pravin Bansode Portfolio", "stack":"Django · PostgreSQL · HTML/CSS · JavaScript", "description":"Personal developer portfolio website built with Django and PostgreSQL, featuring dynamic content management, secure environment configurations, and optimized pre-deployment asset handling."},
+        {"name":"Pravin Bansode Portfolio", "stack":"Django · Neon PostgreSQL · Git+GitHub · Vercel", "description":"Personal developer portfolio website built with Django and Neon PostgreSQL, featuring dynamic content management, secure environment configurations, and optimized pre-deployment asset handling."},
     ],
     "education": "BCA — Bharati Vidyapeeth Deemed to be University, Pune (Sangli), 2020–2023 · CGPA 8.54/10",
     "certifications": ["Deloitte — Data Analytics Job Simulation (Forage)", "Accenture — Data Analytics and Visualization Job Simulation (Forage)"],
