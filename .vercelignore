@@ -1,0 +1,11 @@
+.venv/
+venv/
+.git/
+.env
+.env.*
+db.sqlite3
+*.sqlite3
+__pycache__/
+api/
+render.yaml
+FILE_INVENTORY.txt
