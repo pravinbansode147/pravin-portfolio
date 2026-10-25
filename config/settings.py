@@ -80,3 +80,10 @@ if os.getenv("AWS_STORAGE_BUCKET_NAME"):
     AWS_S3_CUSTOM_DOMAIN = os.getenv("AWS_S3_CUSTOM_DOMAIN") or None
     AWS_QUERYSTRING_AUTH = False
     AWS_DEFAULT_ACL = None
+
+# --- Vercel static files: no manifest needed ---
+if os.getenv("VERCEL"):
+    STORAGES["staticfiles"] = {
+        "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage"
+    }
+    WHITENOISE_USE_FINDERS = True
