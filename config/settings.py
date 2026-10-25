@@ -87,3 +87,8 @@ if os.getenv("VERCEL"):
         "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage"
     }
     WHITENOISE_USE_FINDERS = True
+
+# --- Vercel: serve committed gallery files as static files ---
+if os.getenv("VERCEL"):
+    STATICFILES_DIRS = [BASE_DIR / "static", ("uploads", BASE_DIR / "media")]
+    MEDIA_URL = "/static/uploads/"
