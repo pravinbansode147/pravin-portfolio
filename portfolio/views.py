@@ -38,7 +38,7 @@ PROFILE = {
 }
 
 def home(request):
-    items = GalleryItem.objects.filter(is_public=True).order_by("created_at", "id")[:20]
+    items = GalleryItem.objects.filter(is_public=True).order_by("created_at")[:20]
     return render(request, "portfolio/home.html", {"profile": PROFILE, "gallery_items": items})
 
 def gallery(request):
