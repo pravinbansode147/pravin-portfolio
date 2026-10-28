@@ -15,12 +15,12 @@ PROFILE = {
     "linkedin": "https://linkedin.com/in/pravin-bansode",
     "summary": "Python Developer with hands-on experience building web applications and REST APIs using Django, Django REST Framework and Flask, backed by PostgreSQL and MySQL.",
     "skills": {
-        "Languages": ["Python", "SQL", "JavaScript", "HTML5", "CSS3", "JSON"],
+        "Languages": ["Python", "SQL", "JavaScript", "HTML5", "CSS3", "JSON", "AI/ML", "Machine Learning Concepts", "scikit-learn", "pandas", "NumPy", "Matplotlib", "Seaborn"],
         "Frameworks": ["Django", "Django REST Framework", "Flask", "Pandas", "NumPy", "Requests"],
         "Databases": ["PostgreSQL", "MySQL", "Schema design", "Indexing", "Query optimization"],
         "Tools": ["Git", "GitHub", "Postman", "Render", "VS Code"],
         "Concepts": ["RESTful API design", "Authentication", "CRUD", "MVT architecture", "Debugging"],
-        "Data & BI": ["Power BI", "Microsoft Excel"],
+        "Data, BI and AI Tools": ["Power BI", "Microsoft Excel", "ChatGPT", "Claude AI", "GenAI", "Gemini"],
     },
     "experience": [
         {"role":"Python Developer", "company":"Microdynamics Software Solutions Pvt Ltd", "dates":"April 2026 – Present", "items":["Build and maintain full-stack web applications using Python, Django and Flask.","Design and deploy REST APIs with Django REST Framework.","Design PostgreSQL and MySQL schemas and write complex SQL queries.","Debug issues using server logs and error-tracking tools."]},

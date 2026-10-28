@@ -13,3 +13,6 @@ staticfiles/
 .mypy_cache/
 .idea/
 .vscode/
+
+gallery.json
+backup*.json

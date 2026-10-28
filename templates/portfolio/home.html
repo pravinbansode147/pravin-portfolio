@@ -13,7 +13,6 @@
   </div>
   <aside class="profile-rail">
     <div class="profile-card">
-      <!--<div class="avatar-wrap"><img id="avatarPreview" src="{% static 'img/profile-placeholder.svg' %}" alt="Profile photo"><label for="avatarUpload" title="Upload a profile photo">＋</label></div>-->
       <div class="avatar-wrap"><img id="avatarPreview" src="{% static 'img/profilephoto.jpg' %}" alt="Profile photo"></div>
       <input id="avatarUpload" type="file" accept="image/*" hidden>
       <h3>{{ profile.name }}</h3><p>{{ profile.role }}</p><small>⌖ {{ profile.location }}</small><small>✉ {{ profile.email }}</small><small>in <a href="{{ profile.linkedin }}" target="_blank" rel="noreferrer">LinkedIn profile</a></small>
