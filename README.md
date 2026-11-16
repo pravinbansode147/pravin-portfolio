@@ -45,22 +45,6 @@ Set `DATABASE_URL` in `.env` to your PostgreSQL connection string, for example:
 `postgresql://USER:PASSWORD@HOST:5432/DBNAME`
 For local quick start, leave it empty and Django uses SQLite. For production, use Render's internal database URL and keep it secret.
 
-## 4. Render deployment
-Create a PostgreSQL database in Render first. Then create **two Web Services** from this repository.
-
-### Django web service
-- Build command: `pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate`
-- Start command: `gunicorn config.wsgi:application`
-- Environment variables:
-  - `SECRET_KEY`: long random secret
-  - `DEBUG`: `False`
-  - `ALLOWED_HOSTS`: your Django Render hostname, e.g. `pravin-portfolio.onrender.com`
-  - `DATABASE_URL`: Render PostgreSQL **Internal Database URL** (if web service and DB are in same region)
-  - `CSRF_TRUSTED_ORIGINS`: `https://pravin-portfolio.onrender.com`
-  - `PORTFOLIO_API_URL`: URL of the FastAPI Render service, e.g. `https://pravin-portfolio-api.onrender.com`
-  - `SECURE_SSL_REDIRECT`: `True`
-- Django's default filesystem is ephemeral on Render. For persistent user profile/gallery uploads, configure a persistent disk or, preferably, object storage such as S3-compatible storage. Uploaded files on an ephemeral disk can disappear on redeploy.
-
 ### FastAPI web service
 - Build command: `pip install -r requirements.txt`
 - Start command: `uvicorn api.main:app --host 0.0.0.0 --port $PORT`
