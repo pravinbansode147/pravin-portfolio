@@ -18,7 +18,7 @@
       <h3>{{ profile.name }}</h3><p>{{ profile.role }}</p><small>⌖ {{ profile.location }}</small><small>✉ {{ profile.email }}</small><small>in <a href="{{ profile.linkedin }}" target="_blank" rel="noreferrer">LinkedIn profile</a></small>
       <div class="socials"><a href="{{ profile.linkedin }}" target="_blank" rel="noreferrer">in</a><a href="https://github.com/pravinbansode146" target="_blank" rel="noreferrer" aria-label="GitHub profile placeholder">⌘</a><a href="mailto:{{ profile.email }}">✉</a></div>
     </div>
-    <div class="rail-card"><h3>Quick links</h3><a href="{% static 'docs/Resume.pdf' %}" download>⇩ Download Resume</a><a href="#contact">✉ Contact Me</a><a href="{{ profile.linkedin }}" target="_blank" rel="noreferrer">in LinkedIn</a><a href="https://github.com/" target="_blank" rel="noreferrer">⌘ GitHub (https://github.com/pravinbansode146)</a></div>
+    <div class="rail-card"><h3>Quick links</h3><a href="{% static 'docs/PravinBansode_Resume.pdf' %}" download>⇩ Download Resume</a><a href="#contact">✉ Contact Me</a><a href="{{ profile.linkedin }}" target="_blank" rel="noreferrer">in LinkedIn</a><a href="https://github.com/" target="_blank" rel="noreferrer">⌘ GitHub (https://github.com/pravinbansode146)</a></div>
     <div class="rail-card"><h3>Featured skills</h3><div class="skill-pills">{% for skill in profile.skills.Languages %}<span>{{ skill }}</span>{% endfor %}{% for skill in profile.skills.Frameworks %}<span>{{ skill }}</span>{% endfor %}</div></div>
     <!--<div class="rail-card audio-card"><button id="musicToggle" aria-label="Toggle ambient sound">▶</button><div><b>Relaxing Coding Vibes</b><small>Optional ambient sound</small></div><span>♪</span></div>-->
   </aside>
