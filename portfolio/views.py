@@ -15,8 +15,8 @@ PROFILE = {
     "linkedin": "https://linkedin.com/in/pravinbansode146",
     "summary": "Python Developer with hands-on experience building web applications and REST APIs using Django, Django REST Framework and Flask, backed by PostgreSQL and MySQL.",
     "skills": {
-        "Languages": ["Python", "SQL", "JavaScript", "HTML5", "CSS3", "JSON", "AI/ML", "Machine Learning Concepts", "scikit-learn", "pandas", "NumPy", "Matplotlib", "Seaborn"],
-        "Frameworks": ["Django", "Django REST Framework", "Flask", "Pandas", "NumPy", "Requests"],
+        "Languages": ["Python", "MySQL", "JavaScript", "HTML5", "CSS3", "JSON", "AI/ML", "Machine Learning Concepts", "scikit-learn", "pandas", "NumPy", "Matplotlib", "Seaborn"],
+        "Frameworks": ["Django", "Django REST Framework", "Node.js","NPM", "REPL", "RestAPI's"],
         "Databases": ["PostgreSQL", "MySQL", "Schema design", "Indexing", "Query optimization"],
         "Tools": ["Git", "GitHub", "Postman", "Render", "VS Code"],
         "Concepts": ["RESTful API design", "Authentication", "CRUD", "MVT architecture", "Debugging"],
