@@ -12,7 +12,7 @@ PROFILE = {
     "location": "Pune, Maharashtra",
     "email": "pravinbansode147@gmail.com",
     "phone": "7666656710",
-    "linkedin": "https://linkedin.com/in/pravin-bansode",
+    "linkedin": "https://linkedin.com/in/pravinbansode146",
     "summary": "Python Developer with hands-on experience building web applications and REST APIs using Django, Django REST Framework and Flask, backed by PostgreSQL and MySQL.",
     "skills": {
         "Languages": ["Python", "SQL", "JavaScript", "HTML5", "CSS3", "JSON", "AI/ML", "Machine Learning Concepts", "scikit-learn", "pandas", "NumPy", "Matplotlib", "Seaborn"],
